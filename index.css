@@ -1,0 +1,49 @@
+h1 {
+  font-family: arial;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+div.topbox {
+  background-color: #4A83FC;
+  /*margin-top: auto;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*box-shadow:         5px 20px 20px 20px #ccc;*/
+}
+
+div.secondlevel {
+  background-color: #1E4BEA;
+}
+
+div.trialblock {
+  display: inline-block;
+  border: 2px;
+  padding: 5px;
+  margin: 5px;
+}
+
+marquee {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <head>
   <title>Bryce Frey's Profile</title>
+  <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-  <h1>Bryce Frey</h1>
-
-  <img src="me_image.webp" width="80" height="80" alt="Photo of Bryce Frey">
-
+  <div class="secondlevel">
+    <div class="topbox">
+      <h1>Bryce Frey</h1>
+    </div>
+    <img src="me_image.webp" width="400" height="400" alt="Photo of Bryce Frey" class="centered">
+  </div>
   <h2>Summary</h2>
   <p>I grew up on a farm in Nebraska. I will study computer science in college. I enjoy speaking, acting, card games, watching TV and sleeping.</p>
 
@@ -21,9 +24,36 @@
     <li><a href="https://plus.google.com/u/0/108626009253578607979">Google+</a></li>
     <li><a href="http://www.facebook.com/bryce.frey.18">Facebook</a></li>
   </ul>
-
-  <h2>My Favorite Movies</h2>
-  <marquee scrollamount="9">Finding Nemo;    The Hunger Games; The Hobbit; Harry Potter; WALL-E; Inception; The Internship;     </marquee>
-
-  <a href="file:///Users/demouser/Documents/hello.html">The First Webpage</a>
+  <div style="background-color: black; color: white;">
+    <h2>Some of My Favorite Movies</h2>
+    <marquee scrollamount="9">
+      <div class="trialblock">
+        <img src="http://cdn.collider.com/wp-content/uploads/The-Internship-movie-poster.jpg" width="200">
+        <br>
+        <p>
+          The Intership
+        </p>
+      </div>
+      <div class="trialblock">
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/hungergames/test/hungergames._V147110990_.jpg" width="200px" alt="" />
+        <br>
+        <p>
+          The Hunger Games
+        </p>
+      </div>
+      <div class="trialblock">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41VUe6MLvIL.jpg" width="200px" alt="" />
+        <p>
+          WALL-E
+        </p>
+      </div>
+      <div class="trialblock">
+        <img src="http://cdn.collider.com/wp-content/uploads/Inception-movie-poster-4.jpg" width="200px" alt="" />
+        <p>
+          Inception
+        </p>
+      </div>
+    </marquee>
+  </div>
+  <a href="file:///Users/demouser/Documents/hello.html" style="font-family: sans-serif">The First Webpage</a>
 </body>
