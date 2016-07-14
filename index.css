@@ -59,3 +59,18 @@ a.marq:visited {
 .center {
   text-align: center;
 }
+
+.hideSum {
+  display: none;
+}
+
+.hideHome {
+  display: none;
+}
+
+.thinBord {
+  padding: 5px;
+  border: 1px solid #000000;
+  float: none;
+
+}

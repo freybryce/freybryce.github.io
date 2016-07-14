@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Bryce Frey's Profile</title>
   <link rel="stylesheet" href="index.css"/>
@@ -10,28 +11,41 @@
     </div>
     <img src="me_image.webp" width="400" height="400" alt="Photo of Bryce Frey" class="centered">
   </div>
-  <h2>Summary</h2>
-  <p class="p1">I grew up on a farm in Nebraska. I will study computer science in college. I enjoy speaking, acting, card games, watching TV and sleeping.</p>
-
-  <h2>Hometown</h2>
-    <div style="text-align: center;">
-      <p class="p1">Neligh, Nebraska</p>
-      <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23671.904341204958!2d-98.04832963803726!3d42.129139218979034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x879ab0b78a84ee21%3A0x582d6098052939e7!2sNeligh%2C+NE+68756!5e0!3m2!1sen!2sus!4v1468338849931" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-
-  <h2>University</h2>
-  <div style="text-align: center;">
+  <!--Summary-->
+  <div class="thinBord" id="summary">
+    <h2>Summary</h2>
+  </div>
+  <div class="hideMe hideSum" id="openSum">
+    <p class="p1">I grew up on a farm in Nebraska. I will study computer
+      science in college. I enjoy speaking, acting, card games, watching TV and
+      sleeping.</p>
+  </div>
+  <!--Hometown-->
+  <button type="button" name="button" id="button"></button>
+  <div class="thinBord">
+    <h2 id="hometown">Hometown</h2>
+  </div>
+  <div class="hideMe" style="text-align: center;" id="openHome">
+    <p class="p1">Neligh, Nebraska</p>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23671.904341204958!2d-98.04832963803726!3d42.129139218979034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x879ab0b78a84ee21%3A0x582d6098052939e7!2sNeligh%2C+NE+68756!5e0!3m2!1sen!2sus!4v1468338849931" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!--University-->
+  <h2 id="university">University</h2>
+  <div class="hideMe" style="text-align: center;">
     <p class="p1">Cornell University</p>
     <br>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13667.613225550645!2d-76.48255403481035!3d42.45280105061459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0821a6191da9d%3A0xf50ee64d821b9ff4!2sCornell+University!5e0!3m2!1sen!2sus!4v1468339325459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
-
-  <h2>Social Profiles</h2>
-  <ul>
-    <li><a href="https://plus.google.com/u/0/108626009253578607979">Google+</a></li>
-    <li><a href="http://www.facebook.com/bryce.frey.18">Facebook</a></li>
-  </ul>
+  <!--Social Profiles-->
+  <h2 id="social">Social Profiles</h2>
+  <div class="">
+    <ul>
+      <li><a href="https://plus.google.com/u/0/108626009253578607979">Google+</a></li>
+      <li><a href="http://www.facebook.com/bryce.frey.18">Facebook</a></li>
+    </ul>
+  </div>
+  <!--Movies-->
   <div style="background-color: black; color: white;">
     <h2>Some of My Favorite Movies</h2>
     <marquee scrollamount="9">
@@ -71,5 +85,9 @@
       </a>
     </marquee>
   </div>
+  <div class="other">
+
+  </div>
   <a href="file:///Users/demouser/Documents/hello.html" style="font-family: sans-serif">The First Webpage</a>
 </body>
+</html>
